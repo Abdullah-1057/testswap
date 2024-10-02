@@ -1,0 +1,60 @@
+{
+  "name": "swap_test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@connect2ic/core": "^0.2.0-beta.24",
+    "@connect2ic/react": "^0.2.0-beta.24",
+    "@dfinity/agent": "^1.4.0",
+    "@dfinity/auth-client": "^0.18.1",
+    "@dfinity/candid": "^1.4.0",
+    "@dfinity/ledger-icp": "^2.3.1",
+    "@dfinity/nns": "^5.2.0",
+    "@dfinity/principal": "^1.4.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.108",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "dotenv": "^16.4.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "schema-utils": "^2.7.1",
+    "typescript": "^4.9.5",
+    "vite-plugin-node-polyfills": "^0.22.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
